@@ -116,38 +116,3 @@ h6,
   justify-content: center;
   align-items: center;
 }
-
-
-
-
-
-
-#bar {
-  background-color: transparent !important;
-  border: 1px solid #000000;
-  height: fit-content;
-  width: fit-content;
-  padding: 4px;
-}
-
-#bar span {
-  display: block;
-  height: 2px;
-  width: 20px;
-  background-color: #000000;
-}
-
-#bar span:nth-child(2) {
-  margin: 3px 0;
-}
-
-#menu-bar {
-  transform: scaleY(0);
-  transform-origin: top;
-  overflow: hidden;
-  transition: 0.4s ease;
-}
-
-#menu-bar.fun {
-  transform: scaleY(1);
-}
